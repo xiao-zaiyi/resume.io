@@ -1,14 +1,14 @@
 # Site settings
-name: 想先生
-location: 北京
+name: 肖在毅
+location: 成都
 #company: IBM
 position: 全栈工程师
-github: https://gitee.com/Array_Xiang
-facebook: https://www.facebook.com/profile.php?id=100090009371849
-phone: 15279151605
-email: arrayxiangxiang@gmail.com
+github: https://gitee.com/xiao-zaiyi
+facebook: https://www.facebook.com/profile.php?id=100082428339678
+phone: 19178851803
+email: xiao1932794922@gmail.com
 
-baseurl: "/resume.io"
+baseurl: '/resume.io'
 
 permalink: /:year/:month/:day/:title/
 
@@ -17,3 +17,4 @@ exclude: ['README.md']
 # Build settings
 markdown: kramdown
 
+personalSkills: 

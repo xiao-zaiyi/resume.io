@@ -1,0 +1,26 @@
+# 职业技能
+personalSkills:
+  - '1.熟练掌握 Java 基础，具备多线程、集合、IO等技术应用能力，具有良好面向对象思想；'
+  - '2.熟练使用 Spring、SpringMVC、Mybatis、SpringBoot 等主流开发框架；理解Spring IOC和 AOP 思想；'
+  - '3.熟练掌握 MySQL，MongoDB，Nebula 图数据库，对 MySQL 索引，事务有一定的研究；'
+  - '4.熟悉 Redis 五大数据类型基本用法，集群以及持久化机制，对 Redis 实现分布式锁有一定了解；'
+  - '5.熟练 Linux 常用命令，服务配置及项目部署，熟悉 Docker 容器化技术，了解 Jenkins；'
+  - '6.熟悉计算机基础知识，了解常用的设计模式；'
+  - '7.了解 SpringCloud 分布式微服务框架，编写过微服务模块 ;'
+  - '8.熟悉 Nginx 应用服务器，理解请求转发、负载均衡的常用配置；'
+  - '9.熟悉 C/C++，Python 语言，熟练使用代码进行数据处理及编写网络爬虫代码，并有Django Web框架开发经验；'
+  - '10.熟练使用 HTML、CSS、JavaScript，熟悉Vue、element-ui 组件以及Json数据交换格式，有 Vue前端框架和微信小程序开发经验；'
+
+# 教育经历
+educations:
+  - education:
+      school: 电子科技大学成都学院
+      major: 机器人工程
+      startTime: 2019-09
+      endTime: 2023-06
+      content:
+        - 1.国家励志奖学金、学院二等奖学金、校级证书若干
+        - 2.四川省综合素质A级证书；
+        - 3.外观设计专利、实用新型专利；
+        - 4.全国大学生电子设计竞赛二等奖；
+      schoolImg: ''
