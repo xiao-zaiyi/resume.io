@@ -95,3 +95,14 @@ introductions:
   - 2. 个人学习能力强，闲时自学新技能，在学习过程善于思考总结并编写技术博客，发布到个人网站和 CSDN 论坛平台上，具备良好的开源精神；
   - 3. 乐于参与开源项目开发，对知名 WordPress 开源博客 Sakura 使用 Vue 和 SpringBoot 进行项目开发重构；
   - 4. 抗压能力强，善于与他人沟通交流，有很强的责任心，对事善于思考，尽善尽美，不好高骛远；
+
+gantt:
+  '```mermaid gantt dateFormat YYYY-MM-DD title 项目总体进度 section 个人项目
+  excludes weekends todayMarker off 坡道行驶电动小车 :done,des4, 2020-08-01,
+  2020-08-04 智能分拣搬送装置 :done,des1, 2021-05-15, 15d 帆板控制系统
+  :done,des2, 2021-07-15, 7d 激光打靶 :done,des3, after des2, 7d
+  个人开源sakura_vue博客 :active,des5, 2021-10-01, 2023-12-01
+  基于物联网门禁系统 :crit,active,lot, 2022-7-01, 2023-05-01 section
+  企业项目 颜值反击 :done,des6, 2022-11-01, 2022-12-01 万众集资 :done,des7,
+  2022-06-01 , 2022-11-01 成都双流文物保护管理系统 :done, des8, 2022-01-01,
+  2022-03-01 ```'
