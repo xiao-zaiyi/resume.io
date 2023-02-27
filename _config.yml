@@ -14,7 +14,7 @@ email: xiao1932794922@gmail.com
 # 个人网站
 persionurl: https://xlike.cc
 
-baseurl: '/resume.io'
+baseurl: ''
 
 permalink: /:year/:month/:day/:title/
 
