@@ -1,33 +1,27 @@
 <section class="section brd-btm" id="experience">
-    <div class="row">
-        <div class="col-sm-12 clear-mrg">
-            <h2 class="title-thin text-muted">工作经历</h2>
-            <br />
-            <div class="education">
-                <div class="education-box">
-                    <time class="education-date" datetime="2021-07TNow">
-                        <span>Jul. <strong class="text-upper">2021</strong> - <strong>Now</strong></span>
-                    </time>
-                    <h3>Java 全栈工程师</h3>
-                    <span class="education-company">北京智数云科信息技术有限公司</span>
-                    <p>参与公司系统技术架构设计</p>
-                    <p>带领团队开发中保引擎</p>
-                    <p>参与改造开发 大数据交易中心、再保险、现金计价、API 报表、反欺诈、实名查验、核心鉴权等共 9 个项目 </p>
-                    <p>参与搭建 系统监控环境 Grafana+Prometheus 使用钉钉作为告警反馈平台</p>
-                    <p>使用 Skywalking 分析瓶颈问题</p>
-                </div>
-                <!-- .education-box -->
-
-                <div class="education-box">
-                    <time class="education-date" datetime="2019-11T2021-07">
-                        <span>Nov. <strong class="text-upper">2019</strong>  - Jul. <strong>2021</strong></span>
-                    </time>
-                    <h3>Java 全栈工程师</h3>
-                    <span class="education-company">吉贝克信息技术（北京）有限公司</span>
-                    <p>核心研发公司产品 EAST 监管报送系统，对系统性能进行深度优化</p>
-                    <p>带领应届生驻扎客户场地实施部署工作 </p>
-                </div>
-            </div>
+  <div class="row">
+    <div class="col-sm-12 clear-mrg">
+      <h2 class="title-thin text-muted">工作经历</h2>
+      <br />
+      <div class="education">
+        {% for e in site.data.resume.experiences %}
+        <div class="education-box">
+          <time class="education-date" >
+            <span>
+              <strong class="text-upper">{{e.experience.startTime}}</strong>
+              -
+              <strong>{{e.experience.endTime}}</strong>
+            </span>
+          </time>
+          <h3>{{e.experience.workName}}</h3>
+          <span class="education-company">{{e.experience.company}}</span>
+          {% for c in e.experience.DJ %}
+          <p>{{c}}</p>
+          {% endfor %}
         </div>
+        {% endfor %}
+      </div>
     </div>
-</section><!-- .section -->
+  </div>
+</section>
+<!-- .section -->

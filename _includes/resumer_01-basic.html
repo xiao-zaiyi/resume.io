@@ -1,29 +1,68 @@
 <section class="section brd-btm" id="basic_info">
   <div class="row">
-    <div class="col-sm-6 clear-mrg">
+    <div class="col-sm-6 clear-mrg base">
       <h2 class="title-thin text-muted">基本信息</h2>
-
-      <dl class="dl-horizontal clear-mrg">
-        <dt class="text-upper">性别</dt>
-        <dd>男</dd>
-
-        <!--                <dt class="text-upper">Gitee</dt>-->
-        <!--                <dd>20 Feb 1999</dd>-->
-        <!--                <dt class="text-upper">手机</dt>-->
-        <!--                <dd>**</dd>-->
-
-        <dt class="text-upper">e-mail</dt>
-        <dd>
-          <a
-            style="text-decoration: none; color: #666666"
-            href="mailto:array_xiangxiang@163.com"
-            >{{ site.email }}</a
-          >
-        </dd>
-      </dl>
+      <div class="field-box">
+        <div class="field-k">
+          姓名:
+          <div class="field-v">{{site.name}}</div>
+        </div>
+        <div class="field-k">
+          手机号码:
+          <div class="field-v">{{site.phone}}</div>
+        </div>
+        <div class="field-k">
+          E-mail:
+          <div class="field-v">
+            <a
+              style="text-decoration: none; color: #3d3d3d"
+              href="mailto:{{ site.email }}"
+              >{{ site.email }}</a
+            >
+          </div>
+        </div>
+        <div class="field-k">
+          个人网站:
+          <div class="field-v">
+            <a
+              style="text-decoration: none; color: #01108f"
+              target="_blank"
+              href="{{ site.persionurl }}"
+              >{{ site.persionurl }}</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
     <!-- .col-sm-6 -->
   </div>
   <!-- .row -->
 </section>
 <!-- .section -->
+<style>
+  .base {
+    width: 100%;
+  }
+
+  .field-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .field-k {
+    /* 加黑 */
+    font-weight: 700;
+    padding: 5px 0 5px 10px;
+    width: 50%;
+    float: left;
+    display: flex;
+  }
+
+  .field-v {
+    padding: 0px 0px 0px 10px;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    /* color: #666666; */
+  }
+</style>

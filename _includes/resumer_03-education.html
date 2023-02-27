@@ -19,9 +19,9 @@
                 <div class="ref-info">
                 <div class="ref-author">
                     <strong>{{i.education.school}} </strong>
-                    <span>{{i.education.startTime}} - {{i.education.endTime}}
-                        {% if i.education.major %} | {% endif %}
-                      {{i.education.major}}</span>
+                    <strong>{{i.education.major}}</strong>
+                    <strong>{{i.education.startTime}} - {{i.education.endTime}}</strong>
+
                 </div>
                 <blockquote class="ref-cont clear-mrg">
                     {% for c in i.education.content %}

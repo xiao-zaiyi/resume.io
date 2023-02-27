@@ -11,6 +11,23 @@
     <p class="text-muted">{{ site.location }} | {{ site.position }}</p>
     <ul class="ace-social clear-list">
       <li>
+        <a
+          href="{{ site.persionurl }}"
+          title="{{ site.persionurl }}"
+          target="_blank"
+          ><span class="ace-icon ace-icon-home"></span
+        ></a>
+      </li>
+      <li class="wx">
+        <span class="ace-icon ace-icon-wechat">
+          <img
+            src="{{ '/styles/img/wx.jpg' | prepend: site.baseurl }}"
+            alt="ldontknowyouandme"
+            width="120"
+            height="120"
+        /></span>
+      </li>
+      <li>
         <a href="{{ site.github }}" title="{{ site.github }}" target="_blank"
           ><span class="ace-icon ace-icon-github"></span
         ></a>
@@ -29,7 +46,7 @@
         ></a>
       </li>
       <li>
-        <a href="mailto: {{ site.email }}" title="{{ site.email }}"
+        <a href="mailto:{{ site.email }}" title="{{ site.email }}"
           ><span class="ace-icon ace-icon-contact"></span
         ></a>
       </li>
@@ -40,7 +57,23 @@
       class="btn btn-lg btn-block btn-thin btn-upper"
       href="javascript:void(0)"
       onclick="window.print()"
-      >Download Resume</a
+      >简历下载</a
     >
   </footer>
 </article>
+
+<style>
+  .wx {
+    cursor: pointer;
+  }
+  .wx span img {
+    display: none; /* 首先将图像隐藏 */
+  }
+
+  .wx:hover span img {
+    display: block;
+    position: absolute;
+    transition: all 0.3s ease;
+    transform: scale(1.5);
+  }
+</style>

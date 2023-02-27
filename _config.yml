@@ -3,10 +3,17 @@ name: 肖在毅
 location: 成都
 #company: IBM
 position: 全栈工程师
+
 github: https://gitee.com/xiao-zaiyi
+
 facebook: https://www.facebook.com/profile.php?id=100082428339678
+
 phone: 19178851803
+
 email: xiao1932794922@gmail.com
+
+# 个人网站
+persionurl: https://xlike.cc
 
 baseurl: '/resume.io'
 
@@ -16,5 +23,3 @@ exclude: ['README.md']
 
 # Build settings
 markdown: kramdown
-
-personalSkills: 

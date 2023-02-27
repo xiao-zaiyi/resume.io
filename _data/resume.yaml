@@ -1,3 +1,5 @@
+
+
 # 职业技能
 personalSkills:
   - '1.熟练掌握 Java 基础，具备多线程、集合、IO等技术应用能力，具有良好面向对象思想；'
@@ -15,7 +17,7 @@ personalSkills:
 educations:
   - education:
       school: 电子科技大学成都学院
-      major: 机器人工程
+      major: 机器人工程(本科)
       startTime: 2019-09
       endTime: 2023-06
       content:
@@ -24,3 +26,22 @@ educations:
         - 3.外观设计专利、实用新型专利；
         - 4.全国大学生电子设计竞赛二等奖；
       schoolImg: ''
+
+# 工作经历
+experiences:
+  - experience:
+      startTime: 2022-05
+      endTime: 2023-02
+      workName: Java 全栈工程师
+      company: 电子科技大学(国家复杂多维信息处理实验室)
+      DJ:
+        - 1.参与主要模块代码开发，与其他项目组进行接口联调测试，使用Python编写数据处理代码，负责项目容器化部署及相关运维工作；
+        - 2.对项目使用数据库存在存储瓶颈、检索时间长等问题进行调研和设计代替方案，对检索逻辑算法进行优化等工作；
+  - experience:
+      startTime: 2021-11
+      endTime: 2022-05
+      workName: Java 全栈工程师
+      company: 成都创智天地投资有限公司
+      DJ:
+        - 1.参与项目从0-1需求沟通实现技术选型、框架搭建及主要模块开发；
+        - 2.负责测试项目，进行代码重构和优化迭代；
