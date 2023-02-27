@@ -50,7 +50,7 @@ experiences:
 projectExperiences:
   - project:
       name: 颜值反击
-      time: 2021.11 - 2022.05
+      time: 2022.11 - 2022.12
       workName: 后端开发工程师
       introduce: '本平台是一个彩妆产品的线上宣传网站，主要目的是对商品进行展示和进行产品推销。本系统包含用户注册登录，宣传产品展示，数字钱包兑换以及后台管理等功能；'
       # 技术栈
